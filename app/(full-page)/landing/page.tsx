@@ -1,5 +1,5 @@
 'use client';
-/* eslint-disable @next/next/no-img-element */
+/* */
 import React, { useContext, useRef, useState } from 'react';
 import Link from 'next/link';
 
@@ -35,7 +35,7 @@ const LandingPage = () => {
                         <ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row cursor-pointer">
                             <li>
                                 <a href="#home" onClick={toggleMenuItemClick} className="p-ripple flex m-0 md:ml-5 px-0 py-3 text-900 font-medium line-height-3">
-                                    <span>Home</span>
+                                    <span> ankur-Home</span>
                                     <Ripple />
                                 </a>
                             </li>
@@ -75,9 +75,9 @@ const LandingPage = () => {
                 >
                     <div className="mx-4 md:mx-8 mt-0 md:mt-4">
                         <h1 className="text-6xl font-bold text-gray-900 line-height-2">
-                            <span className="font-light block">Eu sem integer</span>eget magna fermentum
+                            <span className="font-light block">me</span>eget magna fermentum
                         </h1>
-                        <p className="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">Sed blandit libero volutpat sed cras. Fames ac turpis egestas integer. Placerat in egestas erat... </p>
+                        <p className="font-normal text-2xl line-height-3 md:mt-3 text-gray-700"> for test purpose   in maintainece   </p>
                         <Button type="button" label="Get Started" rounded className="text-xl border-none mt-3 bg-blue-500 font-normal line-height-3 px-3 text-white"></Button>
                     </div>
                     <div className="flex justify-content-center md:justify-content-end">
